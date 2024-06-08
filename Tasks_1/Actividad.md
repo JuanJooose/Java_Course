@@ -1,6 +1,12 @@
 <h1 align="center"> :mortar_board:Actividad #1</h1>
 
-El programa hecho en Java Spring boot, deberá de tener este controlador
+El programa hecho en Java Spring boot, deberá de tener este controlador, Utilizar las dependecias Spring web, devtools and actuator,
+
+La actividadd deberá de tener:
+
+* Modelo users
+* Services
+* Repositorys
 
 
 ```java, package com.activity.one.course.task_one.Controllers;
@@ -26,18 +32,19 @@ public class UsersController {
 
     @GetMapping({"**", "", "home"})
     public List<Users> home() {
-        return service.findAll();
+        // Code ...
     }
 
     @PostMapping("change-name")
-    public List<Users> changeName(@RequestParam Long id, @RequestParam String name) {
-        return service.nameChanger(name, id);
+    public List<Users> changeName() {
+        // Code ...
     }
 
     @PostMapping("create")
-    public List<Users> create(@RequestParam String name, @RequestParam String lastname) {
-        return service.addUser(name, lastname);
+    public List<Users> create() {
+        // code..;
     }
 
 }
 ```
+La solución de la actividad se deberá hacer en Postman 

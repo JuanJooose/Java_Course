@@ -4,7 +4,7 @@ El programa hecho en Java Spring boot, deberá de tener este controlador, Utiliz
 
 La actividadd deberá de tener:
 
-* Modelo users con: id,name y lastname
+* Modelo users con: id, name y lastname
 * Services 
 * Repositorys
 * Mostrar datos
@@ -12,7 +12,7 @@ La actividadd deberá de tener:
 * agregar user
 
 Son libres de utilizar cualquier parámetro para obtener los datos y hacer los respectivos procesos. 
-Se recomienda utilizar @RequestParam
+Se recomienda utilizar @RequestParam.
 
 La solución de la actividad se deberá presentar en Postman.
 

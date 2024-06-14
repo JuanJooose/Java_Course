@@ -2,6 +2,8 @@
 
 <h2 align="center"> ⚠️Se debe seguir con la apliación que se hizo en el <a href="https://github.com/JuanJooose/Java_Course/blob/main/Tasks/Task_1.md">Task_1</a> </h2>
 
+
+# General
 ### La actividad deberá de tener:
 
 * Modelo users con: id, name, lastname y password.
@@ -12,6 +14,20 @@
 * Método de login.
 * Clase AppConfig que crea dos listas( Una lista con usuarios sin contraseña y viceversa ).
 
+# Para Cantorini 
+
+* Mostrar una lista de números aleatorios y organizarlos de manera ascendente.
+* Mostrar solamente el nombre de cada usuario.
+* Mostrar el resultado de una suma.
+
+## Ejemplo 
+
+```java,
+
+@PostMapping("suma")
+    public Double suma(@RequestParam Double num1,@RequestParam Double num2) {}
+
+```
 
 ## ⚠️Las listas se utilizarán para probar los métodos nuevos.
 

@@ -2,15 +2,13 @@
 
 <h2 align="center"> ⚠️Se debe seguir con la apliación que se hizo en el <a href="https://github.com/JuanJooose/Java_Course/blob/main/Tasks/Task_1.md">Task_1</a> </h2>
 
-El software hecho en Java - Spring Boot deberá Utilizar las dependecias Spring web, devtools and actuator,
+### La actividad deberá de tener:
 
-La actividadd deberá de tener:
-
-* Modelo users con: id, name y lastname 
-* Services 
-* Repositorys
-* Mostrar datos
-* Cambiar nombre de x user
+* Modelo users con: id, name, lastname y password.
+* Modelo Exception con sus respectivas variables.
+* Exception personalizada User.
+* Controlador exception el cual ayuda a prevenir INTERNAL_SERVER_ERROR ó alguna exception.
+* Metodo para agregar password a ususario.
 * agregar user
 
 Son libres de utilizar cualquier parámetro para obtener los datos y hacer los respectivos procesos. 

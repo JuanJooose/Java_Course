@@ -13,7 +13,7 @@
 * Clase AppConfig que crea dos listas( Una lista con usuarios sin contraseña y viceversa ).
 
 
-## ⚠️Las listas se utilizarán para ejecutar ambos métodos nuevos.
+## ⚠️Las listas se utilizarán para probar los métodos nuevos.
 
 Son libres de utilizar cualquier parámetro para obtener los datos y hacer los respectivos procesos. 
 Se recomienda utilizar @RequestParam. 
@@ -22,7 +22,7 @@ Se recomienda utilizar @RequestParam.
 
 ## En Postman.
 
-- Çambiar la contraseña y, con este cambio hecho, iniciar sesión.
+- Cambiar la contraseña y, con este cambio hecho, iniciar sesión.
 - iniciar sesión validando si el usuario y contraseña existen en la bd (Lista).
 
 Adjunto pista/base de como deberia de ser el controlador (le faltan cosas que se dejan a su disposición). 

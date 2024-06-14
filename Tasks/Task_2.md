@@ -17,9 +17,9 @@
 
 Son libres de utilizar cualquier parámetro para obtener los datos y hacer los respectivos procesos.
 
-Se recomienda utilizar: <h3>@RequestParam.</h3> 
+Se recomienda utilizar: @RequestParam. 
 
-</hr>
+
 
 # ¿Qué debo presentar?
 

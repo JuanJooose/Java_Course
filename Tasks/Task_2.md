@@ -10,7 +10,7 @@
 * Controlador exception el cual ayuda a prevenir INTERNAL_SERVER_ERROR ó alguna exception.
 * Método para agregar password a usuario.
 * Método de login.
-* Clase AppConfig que crea dos listas( Una lista con usuarios sin contraseña y viceversa) ¿Dónde las utilizo?.
+* Clase AppConfig que crea dos listas( Una lista con usuarios sin contraseña y viceversa ).
 
 
 ## ⚠️Las listas se utilizarán para ejecutar ambos métodos nuevos.
@@ -22,7 +22,7 @@ Se recomienda utilizar @RequestParam.
 
 ## En Postman.
 
-- Çambiar la contraseña y con este cambio hecho iniciar sesión.
+- Çambiar la contraseña y, con este cambio hecho, iniciar sesión.
 - iniciar sesión validando si el usuario y contraseña existen en la bd (Lista).
 
 Adjunto pista/base de como deberia de ser el controlador (le faltan cosas que se dejan a su disposición). 

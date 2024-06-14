@@ -1,6 +1,6 @@
 <h1 align="center"> :mortar_board:Actividad #1</h1>
 
-<h2 align="center"> ⚠️Se debe seguir con la apliación que se hizo en el task_1</h2>
+<h2 align="center"> ⚠️Se debe seguir con la apliación que se hizo en el task_1 </h2>
 
 El software hecho en Java - Spring Boot deberá Utilizar las dependecias Spring web, devtools and actuator,
 

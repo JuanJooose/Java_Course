@@ -19,6 +19,8 @@ Son libres de utilizar cualquier parámetro para obtener los datos y hacer los r
 
 Se recomienda utilizar: <h3>@RequestParam.</h3> 
 
+</hr>
+
 # ¿Qué debo presentar?
 
 ## En Postman.

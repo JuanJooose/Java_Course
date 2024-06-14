@@ -15,7 +15,8 @@
 
 ## ⚠️Las listas se utilizarán para probar los métodos nuevos.
 
-Son libres de utilizar cualquier parámetro para obtener los datos y hacer los respectivos procesos. 
+Son libres de utilizar cualquier parámetro para obtener los datos y hacer los respectivos procesos.
+
 Se recomienda utilizar @RequestParam. 
 
 # ¿Qué debo presentar?

@@ -8,8 +8,9 @@
 * Modelo Exception con sus respectivas variables.
 * Exception personalizada User.
 * Controlador exception el cual ayuda a prevenir INTERNAL_SERVER_ERROR ó alguna exception.
-* Metodo para agregar password a ususario.
-* agregar user
+* Método para agregar password a usuario.
+* Método de login.
+* Clase AppConfig que crea dos listas(#### Una lista con usuarios sin contraseña y viceversa ####) ¿Dónde las utilizo? , estas listas se utilizar para hacer los diferentes 
 
 Son libres de utilizar cualquier parámetro para obtener los datos y hacer los respectivos procesos. 
 Se recomienda utilizar @RequestParam.
@@ -17,8 +18,9 @@ Se recomienda utilizar @RequestParam.
 La solución de la actividad se deberá presentar en Postman.
 
 
-Adjunto pista/base de como deberia de ser el controlador (le faltan cosas que se lo dejo a sus disposición). 
-```java, package com.activity.one.course.task_one.Controllers;
+Adjunto pista/base de como deberia de ser el controlador (le faltan cosas que se dejan a su disposición). 
+```java,
+package com.activity.one.course.task_one.Controllers;
 
 import java.util.List;
 
@@ -26,9 +28,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.activity.one.course.task_one.Models.Users;
+import com.activity.one.course.task_one.Exceptions.UserExceptions;
+import com.activity.one.course.task_one.Models.Domains.Users;
 import com.activity.one.course.task_one.Services.UsersService;
 
 @RestController
@@ -37,21 +41,30 @@ public class UsersController {
 
     @Autowired
     private UsersService service;
-
+    
     @GetMapping({"**", "", "home"})
     public List<Users> home() {
-        // Code ...
+        return service.findAll();
     }
 
     @PostMapping("change-name")
-    public List<Users> changeName() {
-        // Code ...
+    public List<Users> changeName(@RequestParam Long id, @RequestParam String name) {
+        return service.nameChanger(name, id);
     }
 
     @PostMapping("create")
-    public List<Users> create() {
-        // code..;
+    public List<Users> create(@RequestParam String name, @RequestParam String lastname) {
+        return service.addUser(name, lastname);
     }
 
+    @PostMapping("login") 
+    public String login(@RequestParam String name, @RequestParam String password) {
+       ...
+    }
+
+    @PostMapping("new-password")
+    public String newPassword(@RequestParam String newpassword,@RequestParam Long id) {
+        ...
+    }
 }
 ```

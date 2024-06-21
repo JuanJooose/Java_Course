@@ -19,12 +19,13 @@ Antes de hacer la actividad debe de añadir las dependencia de MySQL.
 
 ```
 
-Supongamos que ustede es el adminitrador de x empresa y desea hacer las siguientes acciones.
+* Crear entidades Users y Persons
+
+Supongamos que usted es el adminitrador de x empresa y desea hacer las siguientes acciones.
 
 ## Acciones:
 
-* Entidades Users y Persons
-* Métodos que cambien: usernanme, password, name, lastname en sus respectivas entidades. 
+* Cambiar usernanme, password, name, lastname de las personas. 
 * Login.
 * Ver las personas con sus respectivos usuarios.
 * Eliminar personas (debe de eliminar la persona como también su usuario).

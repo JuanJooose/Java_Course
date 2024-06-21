@@ -25,7 +25,7 @@ Supongamos que usted es el adminitrador de x empresa y desea hacer las siguiente
 
 ## Acciones:
 
-* Crear:
+* Crear.
 * Cambiar usernanme, password, name, lastname de las personas. 
 * Login.
 * Ver las personas con sus respectivos usuarios.

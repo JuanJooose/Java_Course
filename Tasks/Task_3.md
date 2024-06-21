@@ -27,5 +27,5 @@ Supongamos que ustede es el adminitrador de x empresa y desea hacer las siguient
 * Ver las personas con sus respectivos usuarios.
 * Eliminar personas (debe de eliminar la persona como también su usuario).
 
-Todo esto el adminitrador lo puede ver mediante <h2>Postman</h2> 
+Todo esto el adminitrador lo puede ver mediante Postman.
 

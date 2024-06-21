@@ -17,14 +17,15 @@ Antes de hacer la actividad debe de añadir las dependencia de SQL
 
 ```
 
-## La actividad deberá de tener:
+Supongamos que ustede es el adminitrador de x empresa y desea hacer las siguientes acciones.
 
+## Acciones:
 
 * Entidades Users y Persons
-* .
-* Exception personalizada User.
-* Controlador exception el cual ayuda a prevenir INTERNAL_SERVER_ERROR ó alguna exception.
-* Método para agregar password a usuario.
-* Método de login.
-* Clase AppConfig que crea dos listas( Una lista con usuarios sin contraseña y viceversa ).
+* Métodos que cambien: usernanme, password, name, lastname en sus respectivas entidades. 
+* Login.
+* Ver las personas con sus respectivos usuarios.
+* Eliminar personas (debe de eliminar la persona como también su usuario).
+
+Todo esto el adminitrador lo puede ver mediante <h2>Postman</h2> 
 

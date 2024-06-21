@@ -2,7 +2,9 @@
 
 <h2 align="center"> ⚠️Se debe seguir con la apliación que se hizo en el <a href="https://github.com/JuanJooose/Java_Course/blob/main/Tasks/Task_1.md">Task_1</a> </h2>
 
-Antes de hacer la actividad debe de añadir las dependencia de MySQL 
+Antes de hacer la actividad debe de añadir las dependencia de MySQL.
+
+En controlador ahora se pasa a llamar AdminController o crean uno nuevo. Está a su disposición.
 
 ```xml,
 <dependency>

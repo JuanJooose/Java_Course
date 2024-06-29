@@ -8,7 +8,7 @@ El administrador podrá cambiar los datos de los productos y su cantidad, pero, 
 
 <h1 align="start"> :smiling_imp: Obligatorio </h1>
 
-Deben de hacer una breve descripción en un archivo con extension MD(markdonw) que dice donde encontrar las clases y que hacen estas.
+Deben de hacer una breve descripción en un archivo con extension MD(markdonw) indicando donde encontrar las clases y lo que hacen estas.
 
 
 

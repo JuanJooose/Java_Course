@@ -13,7 +13,7 @@ Deben de hacer una breve descripción en un archivo con extension MD(markdonw) i
 Ayuda en archivo .properties
 
 ```properties, 
-spring.datasource.url=jdbc:mysql://localhost:3306/db-springrelationships
+spring.datasource.url=jdbc:mysql://localhost:3306/'name db'
 spring.datasource.username=root
 spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver

@@ -10,5 +10,14 @@ El administrador podrá cambiar los datos de los productos y su cantidad, pero, 
 
 Deben de hacer una breve descripción en un archivo con extension MD(markdonw) indicando donde encontrar las clases y lo que hacen estas.
 
+Ayuda en archivo .properties
 
-
+```properties, 
+spring.datasource.url=jdbc:mysql://localhost:3306/db-springrelationships
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=create
+```

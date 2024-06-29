@@ -6,3 +6,9 @@
 
 El administrador también podrá cambiar los datos de los productos y su cantidad, también podrá ver los carritos que están activos en la página.
 
+<h1 align="start"> :smiling_imp: Obligatorio </h1>
+
+Deben de hacer una breve descripción en un archivo con extension MD(markdonw) que dice donde encontrar las clases y que hacen estas.
+
+
+

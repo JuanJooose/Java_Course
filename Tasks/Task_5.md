@@ -18,7 +18,7 @@
 
 - Aparte, dicha página deberá tener un formulario bien elaborado. Puede utilizar bootstrap, tailwindcss o css puro (Se recomienda el 3ro para tener un base clara de el uso de css).
 
-- Favor, no guiarse de chatGPT.
+- Favor, no decirle a ChatGPT que les haga el html.
 
 Estructura base.
 

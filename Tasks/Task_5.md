@@ -14,7 +14,7 @@
 
 <h2>Parte #2</h2>
 
-- Se debera crear una página (Front-end) estática la cual muestre como sería su página a desarrollar en el Task_4. Se tomará muy en cuenta la estructura de las etiquetas. se recomienda buscar información de dichas etiquetas más no guiarse de ejemplos de páginas ya elaboradas.
+- Se debera crear una página (Front-end) estática la cual muestre como sería su página a desarrollar en el Task_4. Se tomará muy en cuenta la estructura de las etiquetas. se recomienda buscar información de dichas etiquetas.
 
 - Aparte, dicha página deberá tener un formulario bien elaborado. Puede utilizar bootstrap, tailwindcss o css puro (Se recomienda el 3ro para tener un base clara de el uso de css).
 
